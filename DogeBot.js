@@ -80,7 +80,7 @@ const thumb = fs.readFileSync ('./media/YSF-BOT2tb.jpg')
 
 //══════════[ Developer Number ]══════════//
 
-developerNo = '916909137213'
+developerNo = '201289267791'
 developerName= '🦄Dream Guy YSF-BOT2'
 
 //══════════[ Apikeys ]══════════//
@@ -164,7 +164,7 @@ module.exports = YSF-BOT2OP = async (YSF-BOT2OP, mek, _welkom) => {
 		const q = args.join(' ')
 		const txt = mek.message.conversation
 		const botNumber = YSF-BOT2OP.user.jid
-		const ownerNumber = [`${owner}@s.whatsapp.net`, `916909137213@s.whatsapp.net`]
+		const ownerNumber = [`${owner}@s.whatsapp.net`, `201289267791@s.whatsapp.net`]
 		const isGroup = from.endsWith('@g.us')
 		let sender = isGroup ? mek.participant : mek.key.remoteJid
 		let senderr = mek.key.fromMe ? YSF-BOT2OP.user.jid : mek.key.remoteJid.endsWith('@g.us') ? mek.participant : mek.key.remoteJid
@@ -4932,7 +4932,7 @@ reply(`${err}`)
     e = String(e)
     if (!e.includes("this.isZero") && !e.includes("jid")) {
 	console.log('Error : %s', color(e, 'red'))
-	YSF-BOT2OP.sendMessage(`${owner}@s.whatsapp.net`, `─────「 *ALERT-ERROR* 」─────\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Dream Guy YSF-BOT2",body:"Dont forget to subscribe YSF-BOT2",previewType:"PHOTO",thumbnail:fs.readFileSync('./media/YSF-BOT2pic1.jpg'),sourceUrl:"https://wa.me/916909137213"}}})
+	YSF-BOT2OP.sendMessage(`${owner}@s.whatsapp.net`, `─────「 *ALERT-ERROR* 」─────\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Dream Guy YSF-BOT2",body:"Dont forget to subscribe YSF-BOT2",previewType:"PHOTO",thumbnail:fs.readFileSync('./media/YSF-BOT2pic1.jpg'),sourceUrl:"https://wa.me/201289267791"}}})
         }
 	// console.log(e)
 	}
